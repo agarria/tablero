@@ -28,14 +28,14 @@ var KTLogin = function() {
 					username: {
 						validators: {
 							notEmpty: {
-								message: 'Username is required'
+								message: 'Se requiere nombre de usuario'
 							}
 						}
 					},
 					password: {
 						validators: {
 							notEmpty: {
-								message: 'Password is required'
+								message: 'Se requiere contraseña'
 							}
 						}
 					}
@@ -106,7 +106,7 @@ var KTLogin = function() {
 					fullname: {
 						validators: {
 							notEmpty: {
-								message: 'Username is required'
+								message: 'Se requiere nombre de usuario'
 							}
 						}
 					},
@@ -123,7 +123,7 @@ var KTLogin = function() {
                     password: {
                         validators: {
                             notEmpty: {
-                                message: 'The password is required'
+                                message: 'Se requiere contraseña'
                             }
                         }
                     },

@@ -2,3 +2,179 @@
 	height: 35px;
     width: auto;
 }
+
+.rc-logo-login svg {
+	height: 75px;
+    width: auto;
+}
+
+.nav-link.active {
+	color: #fff !important;
+    background-color: #239a7f !important;
+}
+
+.nav.nav-pills.nav-danger .show > .nav-link .nav-icon .svg-icon svg g [fill], .nav.nav-pills.nav-danger .nav-link:hover:not(.active) .nav-icon .svg-icon svg g [fill] {
+    fill: #239a7f !important;
+}
+
+.nav.nav-pills.nav-danger .show > .nav-link .nav-text, .nav.nav-pills.nav-danger .nav-link:hover:not(.active) .nav-text {
+    color: #239a7f !important;
+}
+
+.nav .show > .nav-link, .nav .nav-link:hover:not(.disabled), .nav .nav-link.active {
+    color: #239a7f;
+}
+
+a.text-hover-primary:hover, .text-hover-primary:hover {
+    color: #239a7f !important;
+}
+
+.checkbox > input:checked ~ span {
+    background-color: #239a7f !important;
+}
+
+.btn.btn-success {
+    color: #ffffff;
+    background-color: #239a7f !important;
+    border-color: #239a7f !important;
+}
+
+#reclamos_container thead th:first-child,
+#reclamos_container thead th:last-child,
+#reclamos_container tbody td:first-child,
+#reclamos_container tbody td:last-child {
+	text-align: center;
+}
+
+
+th {
+	border-bottom: 0 !important;
+}
+
+tbody tr {
+	cursor: pointer;
+	transition: all .3s ease;
+}
+
+tbody tr:hover {
+	color: #239a7f;
+	background: #ECF0F3;
+}
+
+.dataTables_wrapper .dataTable th.sorting_asc, .dataTables_wrapper .dataTable td.sorting_asc {
+    color: #239a7f !important;
+}
+
+.dataTables_wrapper .dataTable th.sorting_asc:before, .dataTables_wrapper .dataTable td.sorting_asc:before {
+    opacity: 1;
+    color: #239a7f !important;
+}
+
+.dataTables_wrapper .dataTable th.sorting_desc, .dataTables_wrapper .dataTable td.sorting_desc {
+    color: #239a7f !important;
+}
+
+.dataTables_wrapper .dataTable th.sorting_desc:after, .dataTables_wrapper .dataTable td.sorting_desc:after {
+    opacity: 1;
+    color: #239a7f !important;
+}
+
+
+.dataTables_wrapper .dataTables_filter {
+    text-align: right;
+}
+
+.dataTables_wrapper .dataTables_filter label {
+    font-weight: normal;
+    white-space: nowrap;
+    text-align: left;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    height: calc(1.35em + 1.1rem + 2px);
+    padding: 0.55rem 0.75rem;
+    font-size: 0.925rem;
+    line-height: 1.35;
+    border-radius: 0.28rem;
+    margin-left: 0.5em;
+    display: inline-block;
+    width: auto;
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 1.3rem + 2px);
+    padding: 0.65rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #464E5F;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border: 1px solid #E5EAEE;
+    border-radius: 0.85rem;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.dataTables_wrapper .dataTables_filter input:focus {
+    color: #464E5F;
+    background-color: #ffffff;
+    border-color: #f87f8c;
+    outline: 0;
+}
+
+.dataTables_info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    float: left;
+    width: 50%;
+    height: 30px;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.bottom {
+	display: block;
+    float: left;
+    width: 100%;
+}
+
+.dataTables_paginate {
+    display: flex;
+    float: right;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+    height: 30px;
+}
+
+.paginate_button {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    height: 30px;
+    padding: 0 10px;
+    margin: 0 0 0 5px;
+    color: #fff;
+    cursor: pointer;
+    background: #ECF0F3;
+    border-radius: 5px;
+    border: 1px solid #ECF0F3;
+    transition: all .3s ease;
+}
+
+.current.paginate_button {
+	color: #fff !important;
+	background: #239a7f;
+}
+
+.disabled.paginate_button {
+	background: transparent !important;
+	color: #ECF0F3 !important;
+	border: 1px solid #ECF0F3;
+}
