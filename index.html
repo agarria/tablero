@@ -21,6 +21,7 @@
 	<link type="text/css" rel="stylesheet" href="assets/plugins/global/plugins.bundle.css?v=7.0.4">
 	<link type="text/css" rel="stylesheet" href="assets/plugins/custom/prismjs/prismjs.bundle.css?v=7.0.4">
 	<link type="text/css" rel="stylesheet" href="assets/plugins/custom/datatables/datatables.bundle.css?v=7.0.4">
+	<link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/buttons/1.6.2/css/buttons.dataTables.min.css">
 	<link type="text/css" rel="stylesheet" href="assets/css/style.bundle.css?v=7.0.4">
 	<link type="text/css" rel="stylesheet" href="assets/css/style.fixes.css">
 </head>
@@ -355,19 +356,7 @@
 										<div class="card-header flex-wrap py-3">
 											<div class="card-title">
 												<h3 class="card-label">Últimos Reclamos
-												<span class="d-block text-muted pt-2 font-size-sm">Dale click al reclamo para ver más información</span></h3>
-											</div>
-											<div class="card-toolbar">
-												<a href="#" class="btn btn-success font-weight-bolder">
-												<span class="svg-icon svg-icon-md">
-													<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-														<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-															<rect x="0" y="0" width="24" height="24" />
-															<circle fill="#000000" cx="9" cy="15" r="6" />
-															<path d="M8.8012943,7.00241953 C9.83837775,5.20768121 11.7781543,4 14,4 C17.3137085,4 20,6.6862915 20,10 C20,12.2218457 18.7923188,14.1616223 16.9975805,15.1987057 C16.9991904,15.1326658 17,15.0664274 17,15 C17,10.581722 13.418278,7 9,7 C8.93357256,7 8.86733422,7.00080962 8.8012943,7.00241953 Z" fill="#000000" opacity="0.3" />
-														</g>
-													</svg>
-												</span>Exportar CSV</a>
+												<span class="d-block text-muted pt-2 font-size-sm">Dale click al icono de detalles para ver más información</span></h3>
 											</div>
 										</div>
 										<div id="reclamos_container" class="card-body">
@@ -402,28 +391,6 @@
 			</svg>
 		</span>
 	</div>
-
-
-
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-      </div>
-      <div class="modal-body">
-        <div class="insertHere"></div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-
 </body>
 <script>var KTAppSettings = { "breakpoints": { "sm": 576, "md": 768, "lg": 992, "xl": 1200, "xxl": 1200 }, "colors": { "theme": { "base": { "white": "#ffffff", "success": "#6993FF", "secondary": "#E5EAEE", "success": "#1BC5BD", "info": "#8950FC", "warning": "#FFA800", "danger": "#F64E60", "light": "#F3F6F9", "dark": "#212121" }, "light": { "white": "#ffffff", "success": "#E1E9FF", "secondary": "#ECF0F3", "success": "#C9F7F5", "info": "#EEE5FF", "warning": "#FFF4DE", "danger": "#FFE2E5", "light": "#F3F6F9", "dark": "#D6D6E0" }, "inverse": { "white": "#ffffff", "success": "#ffffff", "secondary": "#212121", "success": "#ffffff", "info": "#ffffff", "warning": "#ffffff", "danger": "#ffffff", "light": "#464E5F", "dark": "#ffffff" } }, "gray": { "gray-100": "#F3F6F9", "gray-200": "#ECF0F3", "gray-300": "#E5EAEE", "gray-400": "#D6D6E0", "gray-500": "#B5B5C3", "gray-600": "#80808F", "gray-700": "#464E5F", "gray-800": "#1B283F", "gray-900": "#212121" } }, "font-family": "Poppins" };</script>
 <script type="text/javascript" src="assets/plugins/global/plugins.bundle.js?v=7.0.4"></script>
@@ -431,9 +398,15 @@
 <script type="text/javascript" src="assets/js/scripts.bundle.js?v=7.0.4"></script>
 <script type="text/javascript" src="assets/plugins/custom/fullcalendar/fullcalendar.bundle.js?v=7.0.4"></script>
 <script type="text/javascript" src="assets/js/pages/widgets.js?v=7.0.4"></script>
-
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.6.2/js/dataTables.buttons.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.flash.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.html5.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.print.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.4.3/tabletop.min.js"></script>
 <script type="text/javascript">
 
@@ -485,16 +458,18 @@
 	        "title": "Fecha de Reporte:"
 	    },
 	    {
-	        "data": "fecha-suceso",
+	        "data": "fecha_suceso",
 	        "title": "Fecha de Suceso:"
 	    },
 	    {
 	        "data": "correo",
 	        "title": "Correo Electronico:"
 	    },
-	    {
-	        "title": "Detalles"
-	    }
+		{
+			"orderable": false,
+			"data": null,
+			"title": "Detalles"
+		}
 	];
 
 	$(document).ready(function() {
@@ -512,6 +487,48 @@
 
 		initializeTabletopObject();
 
+
+		function format(d) {
+		    return '<div class="evidence-container">'+
+		        '<div class="evidence-row">'+
+		            '<span>Descripción del Reporte:</span>'+
+		            '<span>'+d.descripcion+'</span>'+
+		        '</div>'+
+		        '<div class="evidence-row">'+
+		            '<span>Teléfono:</span>'+
+		            '<span>'+d.telefono+'</span>'+
+		        '</div>'+
+		        '<div class="evidence-row">'+
+		            '<span>País:</span>'+
+		            '<span>'+d.pais+'</span>'+
+		        '</div>'+
+		        '<div class="evidence-row">'+
+		            '<span>Notas:</span>'+
+		            '<span>'+d.notas+'</span>'+
+		        '</div>'+
+		        '<div class="evidence-row">'+
+		            '<span>Adjunto:</span>'+
+		            '<span><a title="Click para ver" href="'+d.adjunto+'" target="_blank"><img class="evidence-img" src="'+d.adjunto+'"></a></span>'+
+		        '</div>'+
+		        '<div class="evidence-row">'+
+		            '<span>Departamento:</span>'+
+		            '<span>'+d.departamento+'</span>'+
+		        '</div>'+
+		        '<div class="evidence-row">'+
+		            '<span>Municipio:</span>'+
+		            '<span>'+d.municipio+'</span>'+
+		        '</div>'+
+		        '<div class="evidence-row">'+
+		            '<span>Fecha de Suceso:</span>'+
+		            '<span>'+d.fecha_suceso+'</span>'+
+		        '</div>'+
+		        '<div class="evidence-row">'+
+		            '<span>Correo Electronico:</span>'+
+		            '<span><a href="mailto:'+d.correo+'">'+d.correo+'</a></span>'+
+		        '</div>'+
+		    '</div>';
+		}
+
 		function writeTable(data) {
 			$('#reclamos_container').html(
 				'<table class="table table-bordered table-checkable" id="reclamos_datatable"></table>'
@@ -524,12 +541,20 @@
 				order: [
 					[0, "asc"]
 				],
-				dom: '<"top">rt<"bottom"ip><"clear">',
+		        dom: 'Bfrtip',
+		        buttons: [
+					'csv', 'excel', 'pdf', 
+					{
+				        extend: 'print',
+				        text: 'Imprimir'
+					}
+		        ],
 		        language: {
 		            lengthMenu: "Mostrar _MENU_ reclamos por pagina",
 		            zeroRecords: "No hay reclamos encontrados",
 		            info: "Mostrando _START_ a _END_ de _TOTAL_ reclamos",
 		            infoEmpty: "No hay reclamos",
+		            search: "Buscar reclamos:",
 		            infoFiltered: "(Filtrados _MAX_ reclamos)"
 		        },
 		        columnDefs: [
@@ -541,20 +566,24 @@
 					{
 						"targets": -1,
 						"data": null,
-						"defaultContent": "<button type='button' class='btn btn-success'>Ver</button>"
+						"defaultContent": "<button type='button' class='btn btn-success evidence-control'></button>"
 					}
 		        ]
 			});
 
+			$('#reclamos_datatable tbody').on('click', 'td button', function () {
+				var tr = $(this).closest('tr');
+				var row = table.row(tr);
 
-
-    $("#reclamos_datatable tbody").on('click', 'button', function () {
-        alert(table.cell( this, 0 ).data());
-    });
-
-
-
-
+				if (row.child.isShown()) {
+					row.child.hide();
+					tr.removeClass('show-evidence');
+				}
+				else {
+					row.child(format(row.data())).show();
+					tr.addClass('show-evidence');
+				}
+			});
 
 		}
 
