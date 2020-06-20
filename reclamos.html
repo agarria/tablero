@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="autor" content="Red Ciudadana">
+    <meta name="keywords" content="guatemala, Red Ciudadana, Guatemala, guatemala">
+    <meta name="description" content="Tablero - Red Ciudadana">
+    <link rel="canonical" href="https://www.tablero.gt">
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/img/favicon-ios.png">
+    <title>Tablero - Red Ciudadana</title>
+    <meta property="og:url" content="https://www.tablero.gt">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Tablero - Red Ciudadana">
+    <meta property="og:description" content="Tablero - Red Ciudadana">
+    <meta property="og:image" content="assets/img/thumbnail.png">
+	<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700">
+	<link type="text/css" rel="stylesheet" href="assets/plugins/custom/fullcalendar/fullcalendar.bundle.css?v=7.0.4">
+	<link type="text/css" rel="stylesheet" href="assets/plugins/global/plugins.bundle.css?v=7.0.4">
+	<link type="text/css" rel="stylesheet" href="assets/plugins/custom/prismjs/prismjs.bundle.css?v=7.0.4">
+	<link type="text/css" rel="stylesheet" href="assets/plugins/custom/datatables/datatables.bundle.css?v=7.0.4">
+	<link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/buttons/1.6.2/css/buttons.dataTables.min.css">
+	<link type="text/css" rel="stylesheet" href="assets/css/style.bundle.css?v=7.0.4">
+	<link type="text/css" rel="stylesheet" href="assets/css/style.fixes.css">
+</head>
+<body id="kt_body" class="quick-panel-right demo-panel-right offcanvas-right header-fixed header-mobile-fixed aside-enabled aside-static page-loading">
+	<div id="kt_header_mobile" class="header-mobile header-mobile-fixed">
+		<a class="rc-logo" href="index.html">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90.44 45.99"><defs><style>.cls-1{fill:#00a1a9;}.cls-2{fill:#5a5a5d;}.cls-3{fill:#59595c;}.cls-4{fill:#fff;}</style></defs><title>Asset 6</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_4" data-name="Layer 4"><path class="cls-1" d="M17.25,30.91,9.11,18.31c-.82,0-2-.06-3.44-.14V30.91H.05V.41c.31,0,1.48,0,3.52-.15S7.26.1,8.5.1q11.63,0,11.62,9A8.17,8.17,0,0,1,18.51,14a8.59,8.59,0,0,1-4,3.15l9,13.74ZM5.67,5.11v8.48c1,.08,1.76.12,2.29.12a9.88,9.88,0,0,0,5-1c1-.64,1.57-1.88,1.57-3.72a3.26,3.26,0,0,0-1.69-3.15A12,12,0,0,0,7.5,5,14.77,14.77,0,0,0,5.67,5.11Z"></path><path class="cls-2" d="M43.55,21.35H27.63a5.58,5.58,0,0,0,1.83,4.14A6.59,6.59,0,0,0,34,27a7.37,7.37,0,0,0,5.42-1.85l2,4c-1.84,1.49-4.57,2.23-8.21,2.23a10.83,10.83,0,0,1-8.06-3c-2-2-3-4.77-3-8.34a11.59,11.59,0,0,1,3.26-8.54A10.67,10.67,0,0,1,33.26,8.2a10.61,10.61,0,0,1,7.79,2.89A9.89,9.89,0,0,1,44,18.46,14.65,14.65,0,0,1,43.55,21.35ZM27.81,17.44h11q-.54-4.89-5.41-4.89Q28.89,12.55,27.81,17.44Z"></path><path class="cls-1" d="M60.2,30.92V29.61a5.16,5.16,0,0,1-2.12,1.2,9.43,9.43,0,0,1-3.08.51,9.08,9.08,0,0,1-7.11-2.86q-2.6-2.87-2.59-8a11.81,11.81,0,0,1,3-8.34,9.75,9.75,0,0,1,7.45-3.21,9.89,9.89,0,0,1,4.48,1V1.27l5-1.21V30.92Zm0-16.44a5.34,5.34,0,0,0-3.37-1.29A5.91,5.91,0,0,0,52.17,15a7.72,7.72,0,0,0-1.63,5.29q0,6.74,6.49,6.74a4.92,4.92,0,0,0,1.79-.44,3.32,3.32,0,0,0,1.38-.87Z"></path><path class="cls-3" d="M6.14,39.44H4.86c0-1.33-.56-2-1.6-2a1.48,1.48,0,0,0-1.44.8,6.62,6.62,0,0,0-.44,2.84,7.12,7.12,0,0,0,.46,3,1.45,1.45,0,0,0,1.41.78,1.45,1.45,0,0,0,1.5-1.09,5.37,5.37,0,0,0,.16-1.32l1.3,0a4.37,4.37,0,0,1-.42,2.05A2.66,2.66,0,0,1,3.23,46a3.33,3.33,0,0,1-1.46-.32,2.48,2.48,0,0,1-1-.93A7.12,7.12,0,0,1,0,41.05,6.51,6.51,0,0,1,.73,37.6a2.8,2.8,0,0,1,2.55-1.26,2.58,2.58,0,0,1,2.49,1.37A4,4,0,0,1,6.14,39.44Z"></path><path class="cls-3" d="M8.94,33.27V35H7.59V33.27Zm0,3.26v9.28H7.59V36.53Z"></path><path class="cls-3" d="M16.81,36.53v9.28H15.55V44.74a3.23,3.23,0,0,1-.74.77,2.66,2.66,0,0,1-1.52.43,2.16,2.16,0,0,1-1.77-.76,2.11,2.11,0,0,1-.44-.92,9.29,9.29,0,0,1-.1-1.45V36.53h1.35v6a6.58,6.58,0,0,0,.1,1.42,1.17,1.17,0,0,0,1.24.89,1.62,1.62,0,0,0,1.4-.7,2.07,2.07,0,0,0,.32-.77,7.13,7.13,0,0,0,.07-1.09V36.53Z"></path><path class="cls-3" d="M24.73,33.27V45.81H23.47v-1.1a2.27,2.27,0,0,1-2,1.23,2.32,2.32,0,0,1-2.09-1.09,6.8,6.8,0,0,1-.85-3.76,7,7,0,0,1,.72-3.53,2.45,2.45,0,0,1,1.09-1,2.7,2.7,0,0,1,1.13-.24,2.45,2.45,0,0,1,1.95,1v-4.1Zm-3.09,4.18a1.43,1.43,0,0,0-.8.25,1.81,1.81,0,0,0-.57.68,7.2,7.2,0,0,0-.4,2.77,7.08,7.08,0,0,0,.4,2.75,1.51,1.51,0,0,0,2.8,0,6.89,6.89,0,0,0,.4-2.71,7.16,7.16,0,0,0-.4-2.81A1.48,1.48,0,0,0,21.64,37.45Z"></path><path class="cls-3" d="M27.93,39.09H26.67a2.92,2.92,0,0,1,.55-1.93,3,3,0,0,1,2.35-.81,3.1,3.1,0,0,1,2.16.66,1.79,1.79,0,0,1,.54.89,5.2,5.2,0,0,1,.12,1.19v4.35a4,4,0,0,0,.1,1.23.49.49,0,0,0,.49.25l.23,0v.92a3,3,0,0,1-.56.06,1.4,1.4,0,0,1-1.52-1.23A2.67,2.67,0,0,1,28.79,46,2.28,2.28,0,0,1,27,45.26a2.61,2.61,0,0,1-.64-1.84,2.36,2.36,0,0,1,.92-2.05,3.13,3.13,0,0,1,1-.47c.33-.09.72-.2,1.18-.31a3.9,3.9,0,0,0,1.4-.52,1.25,1.25,0,0,0,.3-1,1.89,1.89,0,0,0-.3-1.16,1.53,1.53,0,0,0-1.32-.5c-.83,0-1.34.27-1.52.8A2.78,2.78,0,0,0,27.93,39.09ZM31.13,41a7.75,7.75,0,0,1-1.33.48,5.64,5.64,0,0,0-1.49.58,1.45,1.45,0,0,0-.54,1.26c0,1,.45,1.57,1.36,1.57a1.83,1.83,0,0,0,1.56-.81,1.92,1.92,0,0,0,.36-.85A6.67,6.67,0,0,0,31.13,42Z"></path><path class="cls-3" d="M40.55,33.27V45.81H39.29v-1.1a2.27,2.27,0,0,1-2,1.23,2.32,2.32,0,0,1-2.09-1.09,6.88,6.88,0,0,1-.85-3.76A7,7,0,0,1,35,37.56a2.42,2.42,0,0,1,1.1-1,2.65,2.65,0,0,1,1.12-.24,2.45,2.45,0,0,1,2,1v-4.1Zm-3.08,4.18a1.44,1.44,0,0,0-.81.25,1.7,1.7,0,0,0-.56.68,7.17,7.17,0,0,0-.41,2.77,7.05,7.05,0,0,0,.41,2.75,1.51,1.51,0,0,0,2.79,0,6.89,6.89,0,0,0,.4-2.71,7.16,7.16,0,0,0-.4-2.81A1.47,1.47,0,0,0,37.47,37.45Z"></path><path class="cls-3" d="M43.76,39.09H42.49a2.87,2.87,0,0,1,.56-1.93,2.93,2.93,0,0,1,2.34-.81,3.13,3.13,0,0,1,2.17.66,1.78,1.78,0,0,1,.53.89,5.2,5.2,0,0,1,.12,1.19v4.35a4,4,0,0,0,.1,1.23.5.5,0,0,0,.49.25l.24,0v.92a3.06,3.06,0,0,1-.56.06A1.41,1.41,0,0,1,47,44.64,2.67,2.67,0,0,1,44.61,46a2.24,2.24,0,0,1-1.75-.73,2.62,2.62,0,0,1-.65-1.84,2.36,2.36,0,0,1,.92-2.05,3.18,3.18,0,0,1,1-.47c.32-.09.71-.2,1.17-.31a3.89,3.89,0,0,0,1.41-.52,1.29,1.29,0,0,0,.29-1A2,2,0,0,0,46.69,38a1.57,1.57,0,0,0-1.33-.5c-.83,0-1.33.27-1.51.8A2.78,2.78,0,0,0,43.76,39.09ZM47,41a7.92,7.92,0,0,1-1.32.48,5.61,5.61,0,0,0-1.5.58,1.45,1.45,0,0,0-.54,1.26c0,1,.45,1.57,1.36,1.57a1.82,1.82,0,0,0,1.56-.81,1.94,1.94,0,0,0,.37-.85A7.92,7.92,0,0,0,47,42Z"></path><path class="cls-3" d="M50.49,36.53h1.26V37.6a3.16,3.16,0,0,1,.74-.76A2.68,2.68,0,0,1,54,36.41a2.18,2.18,0,0,1,1.77.75,2,2,0,0,1,.44.93,8.05,8.05,0,0,1,.1,1.45v6.27H55v-6a6.4,6.4,0,0,0-.1-1.41,1.16,1.16,0,0,0-1.24-.89,1.6,1.6,0,0,0-1.4.7,2,2,0,0,0-.32.77,6.91,6.91,0,0,0-.07,1.08v5.75H50.49Z"></path><path class="cls-3" d="M59.52,39.09H58.25a2.87,2.87,0,0,1,.56-1.93,2.93,2.93,0,0,1,2.34-.81,3.15,3.15,0,0,1,2.17.66,1.78,1.78,0,0,1,.53.89A5.2,5.2,0,0,1,64,39.09v4.35a4,4,0,0,0,.1,1.23.49.49,0,0,0,.49.25l.24,0v.92a3.06,3.06,0,0,1-.56.06,1.41,1.41,0,0,1-1.53-1.23A2.67,2.67,0,0,1,60.37,46a2.24,2.24,0,0,1-1.75-.73A2.62,2.62,0,0,1,58,43.42a2.36,2.36,0,0,1,.92-2.05,3.13,3.13,0,0,1,1-.47c.33-.09.72-.2,1.18-.31a3.9,3.9,0,0,0,1.4-.52,1.25,1.25,0,0,0,.3-1,1.89,1.89,0,0,0-.3-1.16,1.53,1.53,0,0,0-1.32-.5c-.83,0-1.34.27-1.51.8A2.49,2.49,0,0,0,59.52,39.09ZM62.71,41a7.92,7.92,0,0,1-1.32.48,5.61,5.61,0,0,0-1.5.58,1.45,1.45,0,0,0-.54,1.26c0,1,.45,1.57,1.36,1.57a1.82,1.82,0,0,0,1.56-.81,1.94,1.94,0,0,0,.37-.85A9.52,9.52,0,0,0,62.71,42Z"></path><polygon class="cls-1" points="75.11 4.88 75.75 4.52 86.01 22.57 85.38 22.94 75.11 4.88"></polygon><rect class="cls-2" x="70.18" y="31.21" width="20.77" height="0.73" transform="translate(13.27 85.98) rotate(-60.36)"></rect><path class="cls-1" d="M75.48,10.17a5.09,5.09,0,1,1,5.08-5.09A5.09,5.09,0,0,1,75.48,10.17Z"></path><path class="cls-4" d="M75.48,8.7A3.62,3.62,0,1,1,79.1,5.08,3.62,3.62,0,0,1,75.48,8.7Z"></path><path class="cls-2" d="M75.48,45.87a5.09,5.09,0,1,1,5.08-5.08A5.09,5.09,0,0,1,75.48,45.87Z"></path><path class="cls-1" d="M90.44,22.94a5.09,5.09,0,1,0-10.17,0Z"></path><path class="cls-2" d="M90.44,22.94H80.27a5.09,5.09,0,0,0,10.17,0Z"></path><path class="cls-4" d="M75.48,44.41a3.63,3.63,0,1,1,3.62-3.62A3.63,3.63,0,0,1,75.48,44.41Z"></path><path class="cls-4" d="M85.36,26.56A3.62,3.62,0,1,1,89,22.94,3.62,3.62,0,0,1,85.36,26.56Z"></path><path class="cls-2" d="M75.48,8a2.94,2.94,0,1,1,2.94-2.94A2.93,2.93,0,0,1,75.48,8Z"></path><path class="cls-1" d="M75.48,43.72a2.94,2.94,0,1,1,2.94-2.93A2.93,2.93,0,0,1,75.48,43.72Z"></path><path class="cls-1" d="M82.42,22.94a2.94,2.94,0,0,0,5.88,0Z"></path><path class="cls-2" d="M82.42,22.94H88.3a2.94,2.94,0,1,0-5.88,0Z"></path><path class="cls-2" d="M28.9,30s.24,2.43-1.73,3.27c0,0,4.52-.21,5.83-2.63S28.9,30,28.9,30Z"></path></g></g></svg>
+		</a>
+		<div class="d-flex align-items-center">
+			<div class="topbar-item mr-4" data-toggle="dropdown" data-offset="10px,0px">
+				<div class="btn font-weight-bolder btn-sm btn-light-success px-5">Menú</div>
+			</div>
+		</div>
+	</div>
+	<div class="d-flex flex-column flex-root">
+		<div class="d-flex flex-row flex-column-fluid page">
+			<div class="d-flex flex-column flex-row-fluid wrapper" id="kt_wrapper">
+				<div id="kt_header" class="header header-fixed">
+					<!--begin::Container-->
+					<div class="container d-flex align-items-stretch justify-content-between">
+						<!--begin::Left-->
+						<div class="d-none d-lg-flex align-items-center mr-3">
+
+
+
+							<!--begin::Logo-->
+							<a class="rc-logo" href="index.html">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90.44 45.99"><defs><style>.cls-1{fill:#00a1a9;}.cls-2{fill:#5a5a5d;}.cls-3{fill:#59595c;}.cls-4{fill:#fff;}</style></defs><title>Asset 6</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_4" data-name="Layer 4"><path class="cls-1" d="M17.25,30.91,9.11,18.31c-.82,0-2-.06-3.44-.14V30.91H.05V.41c.31,0,1.48,0,3.52-.15S7.26.1,8.5.1q11.63,0,11.62,9A8.17,8.17,0,0,1,18.51,14a8.59,8.59,0,0,1-4,3.15l9,13.74ZM5.67,5.11v8.48c1,.08,1.76.12,2.29.12a9.88,9.88,0,0,0,5-1c1-.64,1.57-1.88,1.57-3.72a3.26,3.26,0,0,0-1.69-3.15A12,12,0,0,0,7.5,5,14.77,14.77,0,0,0,5.67,5.11Z"></path><path class="cls-2" d="M43.55,21.35H27.63a5.58,5.58,0,0,0,1.83,4.14A6.59,6.59,0,0,0,34,27a7.37,7.37,0,0,0,5.42-1.85l2,4c-1.84,1.49-4.57,2.23-8.21,2.23a10.83,10.83,0,0,1-8.06-3c-2-2-3-4.77-3-8.34a11.59,11.59,0,0,1,3.26-8.54A10.67,10.67,0,0,1,33.26,8.2a10.61,10.61,0,0,1,7.79,2.89A9.89,9.89,0,0,1,44,18.46,14.65,14.65,0,0,1,43.55,21.35ZM27.81,17.44h11q-.54-4.89-5.41-4.89Q28.89,12.55,27.81,17.44Z"></path><path class="cls-1" d="M60.2,30.92V29.61a5.16,5.16,0,0,1-2.12,1.2,9.43,9.43,0,0,1-3.08.51,9.08,9.08,0,0,1-7.11-2.86q-2.6-2.87-2.59-8a11.81,11.81,0,0,1,3-8.34,9.75,9.75,0,0,1,7.45-3.21,9.89,9.89,0,0,1,4.48,1V1.27l5-1.21V30.92Zm0-16.44a5.34,5.34,0,0,0-3.37-1.29A5.91,5.91,0,0,0,52.17,15a7.72,7.72,0,0,0-1.63,5.29q0,6.74,6.49,6.74a4.92,4.92,0,0,0,1.79-.44,3.32,3.32,0,0,0,1.38-.87Z"></path><path class="cls-3" d="M6.14,39.44H4.86c0-1.33-.56-2-1.6-2a1.48,1.48,0,0,0-1.44.8,6.62,6.62,0,0,0-.44,2.84,7.12,7.12,0,0,0,.46,3,1.45,1.45,0,0,0,1.41.78,1.45,1.45,0,0,0,1.5-1.09,5.37,5.37,0,0,0,.16-1.32l1.3,0a4.37,4.37,0,0,1-.42,2.05A2.66,2.66,0,0,1,3.23,46a3.33,3.33,0,0,1-1.46-.32,2.48,2.48,0,0,1-1-.93A7.12,7.12,0,0,1,0,41.05,6.51,6.51,0,0,1,.73,37.6a2.8,2.8,0,0,1,2.55-1.26,2.58,2.58,0,0,1,2.49,1.37A4,4,0,0,1,6.14,39.44Z"></path><path class="cls-3" d="M8.94,33.27V35H7.59V33.27Zm0,3.26v9.28H7.59V36.53Z"></path><path class="cls-3" d="M16.81,36.53v9.28H15.55V44.74a3.23,3.23,0,0,1-.74.77,2.66,2.66,0,0,1-1.52.43,2.16,2.16,0,0,1-1.77-.76,2.11,2.11,0,0,1-.44-.92,9.29,9.29,0,0,1-.1-1.45V36.53h1.35v6a6.58,6.58,0,0,0,.1,1.42,1.17,1.17,0,0,0,1.24.89,1.62,1.62,0,0,0,1.4-.7,2.07,2.07,0,0,0,.32-.77,7.13,7.13,0,0,0,.07-1.09V36.53Z"></path><path class="cls-3" d="M24.73,33.27V45.81H23.47v-1.1a2.27,2.27,0,0,1-2,1.23,2.32,2.32,0,0,1-2.09-1.09,6.8,6.8,0,0,1-.85-3.76,7,7,0,0,1,.72-3.53,2.45,2.45,0,0,1,1.09-1,2.7,2.7,0,0,1,1.13-.24,2.45,2.45,0,0,1,1.95,1v-4.1Zm-3.09,4.18a1.43,1.43,0,0,0-.8.25,1.81,1.81,0,0,0-.57.68,7.2,7.2,0,0,0-.4,2.77,7.08,7.08,0,0,0,.4,2.75,1.51,1.51,0,0,0,2.8,0,6.89,6.89,0,0,0,.4-2.71,7.16,7.16,0,0,0-.4-2.81A1.48,1.48,0,0,0,21.64,37.45Z"></path><path class="cls-3" d="M27.93,39.09H26.67a2.92,2.92,0,0,1,.55-1.93,3,3,0,0,1,2.35-.81,3.1,3.1,0,0,1,2.16.66,1.79,1.79,0,0,1,.54.89,5.2,5.2,0,0,1,.12,1.19v4.35a4,4,0,0,0,.1,1.23.49.49,0,0,0,.49.25l.23,0v.92a3,3,0,0,1-.56.06,1.4,1.4,0,0,1-1.52-1.23A2.67,2.67,0,0,1,28.79,46,2.28,2.28,0,0,1,27,45.26a2.61,2.61,0,0,1-.64-1.84,2.36,2.36,0,0,1,.92-2.05,3.13,3.13,0,0,1,1-.47c.33-.09.72-.2,1.18-.31a3.9,3.9,0,0,0,1.4-.52,1.25,1.25,0,0,0,.3-1,1.89,1.89,0,0,0-.3-1.16,1.53,1.53,0,0,0-1.32-.5c-.83,0-1.34.27-1.52.8A2.78,2.78,0,0,0,27.93,39.09ZM31.13,41a7.75,7.75,0,0,1-1.33.48,5.64,5.64,0,0,0-1.49.58,1.45,1.45,0,0,0-.54,1.26c0,1,.45,1.57,1.36,1.57a1.83,1.83,0,0,0,1.56-.81,1.92,1.92,0,0,0,.36-.85A6.67,6.67,0,0,0,31.13,42Z"></path><path class="cls-3" d="M40.55,33.27V45.81H39.29v-1.1a2.27,2.27,0,0,1-2,1.23,2.32,2.32,0,0,1-2.09-1.09,6.88,6.88,0,0,1-.85-3.76A7,7,0,0,1,35,37.56a2.42,2.42,0,0,1,1.1-1,2.65,2.65,0,0,1,1.12-.24,2.45,2.45,0,0,1,2,1v-4.1Zm-3.08,4.18a1.44,1.44,0,0,0-.81.25,1.7,1.7,0,0,0-.56.68,7.17,7.17,0,0,0-.41,2.77,7.05,7.05,0,0,0,.41,2.75,1.51,1.51,0,0,0,2.79,0,6.89,6.89,0,0,0,.4-2.71,7.16,7.16,0,0,0-.4-2.81A1.47,1.47,0,0,0,37.47,37.45Z"></path><path class="cls-3" d="M43.76,39.09H42.49a2.87,2.87,0,0,1,.56-1.93,2.93,2.93,0,0,1,2.34-.81,3.13,3.13,0,0,1,2.17.66,1.78,1.78,0,0,1,.53.89,5.2,5.2,0,0,1,.12,1.19v4.35a4,4,0,0,0,.1,1.23.5.5,0,0,0,.49.25l.24,0v.92a3.06,3.06,0,0,1-.56.06A1.41,1.41,0,0,1,47,44.64,2.67,2.67,0,0,1,44.61,46a2.24,2.24,0,0,1-1.75-.73,2.62,2.62,0,0,1-.65-1.84,2.36,2.36,0,0,1,.92-2.05,3.18,3.18,0,0,1,1-.47c.32-.09.71-.2,1.17-.31a3.89,3.89,0,0,0,1.41-.52,1.29,1.29,0,0,0,.29-1A2,2,0,0,0,46.69,38a1.57,1.57,0,0,0-1.33-.5c-.83,0-1.33.27-1.51.8A2.78,2.78,0,0,0,43.76,39.09ZM47,41a7.92,7.92,0,0,1-1.32.48,5.61,5.61,0,0,0-1.5.58,1.45,1.45,0,0,0-.54,1.26c0,1,.45,1.57,1.36,1.57a1.82,1.82,0,0,0,1.56-.81,1.94,1.94,0,0,0,.37-.85A7.92,7.92,0,0,0,47,42Z"></path><path class="cls-3" d="M50.49,36.53h1.26V37.6a3.16,3.16,0,0,1,.74-.76A2.68,2.68,0,0,1,54,36.41a2.18,2.18,0,0,1,1.77.75,2,2,0,0,1,.44.93,8.05,8.05,0,0,1,.1,1.45v6.27H55v-6a6.4,6.4,0,0,0-.1-1.41,1.16,1.16,0,0,0-1.24-.89,1.6,1.6,0,0,0-1.4.7,2,2,0,0,0-.32.77,6.91,6.91,0,0,0-.07,1.08v5.75H50.49Z"></path><path class="cls-3" d="M59.52,39.09H58.25a2.87,2.87,0,0,1,.56-1.93,2.93,2.93,0,0,1,2.34-.81,3.15,3.15,0,0,1,2.17.66,1.78,1.78,0,0,1,.53.89A5.2,5.2,0,0,1,64,39.09v4.35a4,4,0,0,0,.1,1.23.49.49,0,0,0,.49.25l.24,0v.92a3.06,3.06,0,0,1-.56.06,1.41,1.41,0,0,1-1.53-1.23A2.67,2.67,0,0,1,60.37,46a2.24,2.24,0,0,1-1.75-.73A2.62,2.62,0,0,1,58,43.42a2.36,2.36,0,0,1,.92-2.05,3.13,3.13,0,0,1,1-.47c.33-.09.72-.2,1.18-.31a3.9,3.9,0,0,0,1.4-.52,1.25,1.25,0,0,0,.3-1,1.89,1.89,0,0,0-.3-1.16,1.53,1.53,0,0,0-1.32-.5c-.83,0-1.34.27-1.51.8A2.49,2.49,0,0,0,59.52,39.09ZM62.71,41a7.92,7.92,0,0,1-1.32.48,5.61,5.61,0,0,0-1.5.58,1.45,1.45,0,0,0-.54,1.26c0,1,.45,1.57,1.36,1.57a1.82,1.82,0,0,0,1.56-.81,1.94,1.94,0,0,0,.37-.85A9.52,9.52,0,0,0,62.71,42Z"></path><polygon class="cls-1" points="75.11 4.88 75.75 4.52 86.01 22.57 85.38 22.94 75.11 4.88"></polygon><rect class="cls-2" x="70.18" y="31.21" width="20.77" height="0.73" transform="translate(13.27 85.98) rotate(-60.36)"></rect><path class="cls-1" d="M75.48,10.17a5.09,5.09,0,1,1,5.08-5.09A5.09,5.09,0,0,1,75.48,10.17Z"></path><path class="cls-4" d="M75.48,8.7A3.62,3.62,0,1,1,79.1,5.08,3.62,3.62,0,0,1,75.48,8.7Z"></path><path class="cls-2" d="M75.48,45.87a5.09,5.09,0,1,1,5.08-5.08A5.09,5.09,0,0,1,75.48,45.87Z"></path><path class="cls-1" d="M90.44,22.94a5.09,5.09,0,1,0-10.17,0Z"></path><path class="cls-2" d="M90.44,22.94H80.27a5.09,5.09,0,0,0,10.17,0Z"></path><path class="cls-4" d="M75.48,44.41a3.63,3.63,0,1,1,3.62-3.62A3.63,3.63,0,0,1,75.48,44.41Z"></path><path class="cls-4" d="M85.36,26.56A3.62,3.62,0,1,1,89,22.94,3.62,3.62,0,0,1,85.36,26.56Z"></path><path class="cls-2" d="M75.48,8a2.94,2.94,0,1,1,2.94-2.94A2.93,2.93,0,0,1,75.48,8Z"></path><path class="cls-1" d="M75.48,43.72a2.94,2.94,0,1,1,2.94-2.93A2.93,2.93,0,0,1,75.48,43.72Z"></path><path class="cls-1" d="M82.42,22.94a2.94,2.94,0,0,0,5.88,0Z"></path><path class="cls-2" d="M82.42,22.94H88.3a2.94,2.94,0,1,0-5.88,0Z"></path><path class="cls-2" d="M28.9,30s.24,2.43-1.73,3.27c0,0,4.52-.21,5.83-2.63S28.9,30,28.9,30Z"></path></g></g></svg>
+							</a>
+							<!--end::Logo-->
+
+							<!--begin::Desktop Search-->
+							<div class="quick-search quick-search-inline ml-20 w-300px" id="kt_quick_search_inline">
+								<!--begin::Form-->
+								<form method="get" class="quick-search-form">
+									<div class="input-group rounded bg-light">
+										<div class="input-group-prepend">
+											<span class="input-group-text">
+												<span class="svg-icon svg-icon-lg">
+													<!--begin::Svg Icon | path:assets/media/svg/icons/General/Search.svg-->
+													<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+														<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+															<rect x="0" y="0" width="24" height="24" />
+															<path d="M14.2928932,16.7071068 C13.9023689,16.3165825 13.9023689,15.6834175 14.2928932,15.2928932 C14.6834175,14.9023689 15.3165825,14.9023689 15.7071068,15.2928932 L19.7071068,19.2928932 C20.0976311,19.6834175 20.0976311,20.3165825 19.7071068,20.7071068 C19.3165825,21.0976311 18.6834175,21.0976311 18.2928932,20.7071068 L14.2928932,16.7071068 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
+															<path d="M11,16 C13.7614237,16 16,13.7614237 16,11 C16,8.23857625 13.7614237,6 11,6 C8.23857625,6 6,8.23857625 6,11 C6,13.7614237 8.23857625,16 11,16 Z M11,18 C7.13400675,18 4,14.8659932 4,11 C4,7.13400675 7.13400675,4 11,4 C14.8659932,4 18,7.13400675 18,11 C18,14.8659932 14.8659932,18 11,18 Z" fill="#000000" fill-rule="nonzero" />
+														</g>
+													</svg>
+													<!--end::Svg Icon-->
+												</span>
+											</span>
+										</div>
+										<input type="text" class="form-control h-45px" placeholder="Search..." />
+										<div class="input-group-append">
+											<span class="input-group-text">
+												<i class="quick-search-close ki ki-close icon-sm text-muted"></i>
+											</span>
+										</div>
+									</div>
+								</form>
+								<!--end::Form-->
+								<!--begin::Search Toggle-->
+								<div id="kt_quick_search_toggle" data-toggle="dropdown" data-offset="0px,1px"></div>
+								<!--end::Search Toggle-->
+								<!--begin::Dropdown-->
+								<div class="dropdown-menu dropdown-menu-left dropdown-menu-lg dropdown-menu-anim-up">
+									<div class="quick-search-wrapper scroll" data-scroll="true" data-height="350" data-mobile-height="200"></div>
+								</div>
+								<!--end::Dropdown-->
+							</div>
+							<!--end::Desktop Search-->
+						</div>
+						<!--end::Left-->
+						<!--begin::Topbar-->
+						<div class="topbar">
+							<!--begin::Create-->
+							<div class="dropdown">
+								<!--begin::Toggle-->
+								<div class="topbar-item mr-4" data-toggle="dropdown" data-offset="10px,0px">
+									<div class="btn font-weight-bolder btn-sm btn-light-success px-5">Menú</div>
+								</div>
+								<!--end::Toggle-->
+								<!--begin::Dropdown-->
+								<div class="dropdown-menu p-0 m-0 dropdown-menu-right dropdown-menu-anim-up dropdown-menu-md">
+									<!--begin::Navigation-->
+									<ul class="navi navi-hover py-5">
+										<li class="navi-item">
+											<a href="dashboard" class="navi-link">
+												<span class="navi-icon">
+													<i class="flaticon2-drop"></i>
+												</span>
+												<span class="navi-text">Dashboard</span>
+											</a>
+										</li>
+										<li class="navi-item">
+											<a href="reclamos" class="navi-link">
+												<span class="navi-icon">
+													<i class="flaticon2-list-3"></i>
+												</span>
+												<span class="navi-text">Reclamos</span>
+											</a>
+										</li>
+										<li class="navi-item">
+											<a href="reportes" class="navi-link">
+												<span class="navi-icon">
+													<i class="flaticon2-bell-2"></i>
+												</span>
+												<span class="navi-text">Reportes</span>
+											</a>
+										</li>
+										<li class="navi-item">
+											<a href="documentacion" class="navi-link">
+												<span class="navi-icon">
+													<i class="flaticon2-gear"></i>
+												</span>
+												<span class="navi-text">Documentación</span>
+											</a>
+										</li>
+									</ul>
+									<!--end::Navigation-->
+								</div>
+								<!--end::Dropdown-->
+							</div>
+							<!--end::Create-->
+						</div>
+						<!--end::Topbar-->
+					</div>
+					<!--end::Container-->
+				</div>
+				<div class="content d-flex flex-column flex-column-fluid" id="kt_content">
+					<div class="d-flex flex-column-fluid">
+						<div class="container">
+							<div class="row">
+								<div class="col-xl-12">
+									<div class="card card-custom gutter-b">
+										<div class="card-header flex-wrap py-3">
+											<div class="card-title">
+												<h3 class="card-label">Últimos Reclamos
+												<span class="d-block text-muted pt-2 font-size-sm">Dale click al icono de detalles para ver más información</span></h3>
+											</div>
+										</div>
+										<div id="reclamos_container" class="card-body">
+
+										</div>
+									</div>
+								</div>	
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer bg-white py-4 d-flex flex-lg-column" id="kt_footer">
+					<div class="container d-flex flex-column flex-md-row align-items-center justify-content-between">
+						<div class="text-dark order-2 order-md-1">
+							<span class="text-muted font-weight-bold mr-2">2020©</span>
+							<a href="https://redciudadana.org/" target="_blank" class="text-dark-75 text-hover-success">Red Ciudadana</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal modal-sticky modal-sticky-bottom-right" id="kt_chat_modal" role="dialog" data-backdrop="false">successiv>
+	<div id="kt_scrolltop" class="scrolltop">
+		<span class="svg-icon">
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+				<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+					<polygon points="0 0 24 0 24 24 0 24" />
+					<rect fill="#000000" opacity="0.3" x="11" y="10" width="2" height="10" rx="1" />
+					<path d="M6.70710678,12.7071068 C6.31658249,13.0976311 5.68341751,13.0976311 5.29289322,12.7071068 C4.90236893,12.3165825 4.90236893,11.6834175 5.29289322,11.2928932 L11.2928932,5.29289322 C11.6714722,4.91431428 12.2810586,4.90106866 12.6757246,5.26284586 L18.6757246,10.7628459 C19.0828436,11.1360383 19.1103465,11.7686056 18.7371541,12.1757246 C18.3639617,12.5828436 17.7313944,12.6103465 17.3242754,12.2371541 L12.0300757,7.38413782 L6.70710678,12.7071068 Z" fill="#000000" fill-rule="nonzero" />
+				</g>
+			</svg>
+		</span>
+	</div>
+</body>
+<script>var KTAppSettings = { "breakpoints": { "sm": 576, "md": 768, "lg": 992, "xl": 1200, "xxl": 1200 }, "colors": { "theme": { "base": { "white": "#ffffff", "success": "#6993FF", "secondary": "#E5EAEE", "success": "#1BC5BD", "info": "#8950FC", "warning": "#FFA800", "danger": "#F64E60", "light": "#F3F6F9", "dark": "#212121" }, "light": { "white": "#ffffff", "success": "#E1E9FF", "secondary": "#ECF0F3", "success": "#C9F7F5", "info": "#EEE5FF", "warning": "#FFF4DE", "danger": "#FFE2E5", "light": "#F3F6F9", "dark": "#D6D6E0" }, "inverse": { "white": "#ffffff", "success": "#ffffff", "secondary": "#212121", "success": "#ffffff", "info": "#ffffff", "warning": "#ffffff", "danger": "#ffffff", "light": "#464E5F", "dark": "#ffffff" } }, "gray": { "gray-100": "#F3F6F9", "gray-200": "#ECF0F3", "gray-300": "#E5EAEE", "gray-400": "#D6D6E0", "gray-500": "#B5B5C3", "gray-600": "#80808F", "gray-700": "#464E5F", "gray-800": "#1B283F", "gray-900": "#212121" } }, "font-family": "Poppins" };</script>
+<script type="text/javascript" src="assets/plugins/global/plugins.bundle.js?v=7.0.4"></script>
+<script type="text/javascript" src="assets/plugins/custom/prismjs/prismjs.bundle.js?v=7.0.4"></script>
+<script type="text/javascript" src="assets/js/scripts.bundle.js?v=7.0.4"></script>
+<script type="text/javascript" src="assets/plugins/custom/fullcalendar/fullcalendar.bundle.js?v=7.0.4"></script>
+<script type="text/javascript" src="assets/js/pages/widgets.js?v=7.0.4"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.6.2/js/dataTables.buttons.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.flash.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.html5.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.print.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.4.3/tabletop.min.js"></script>
+<script type="text/javascript">
+
+	var key = "https://docs.google.com/spreadsheets/d/1C2Wl5zAH3QPVhbuAMW4wftxnv7w9XzpS7P5rcLghlCc/pubhtml?gid=489792061&single=true";
+
+	var columns = [
+		{
+	        "data": "no",
+	        "title": "No."
+	    },
+	    {
+	        "data": "nombre",
+	        "title": "Nombre"
+	    },
+	    {
+	        "data": "categoria",
+	        "title": "Categoria"
+	    },
+	    {
+	        "data": "descripcion",
+	        "title": "Descripción del Reporte:"
+	    },
+	    {
+	        "data": "telefono",
+	        "title": "Teléfono"
+	    },
+	    {
+	        "data": "pais",
+	        "title": "País"
+	    },
+	    {
+	        "data": "notas",
+	        "title": "Notas"
+	    },
+	    {
+	        "data": "adjunto",
+	        "title": "Adjunto"
+	    },
+	    {
+	        "data": "departamento",
+	        "title": "Departamento"
+	    },
+	    {
+	        "data": "municipio",
+	        "title": "Municipio"
+	    },
+	    {
+	        "data": "fecha",
+	        "title": "Fecha de Reporte:"
+	    },
+	    {
+	        "data": "fecha_suceso",
+	        "title": "Fecha de Suceso:"
+	    },
+	    {
+	        "data": "correo",
+	        "title": "Correo Electronico:"
+	    },
+		{
+			"orderable": false,
+			"data": null,
+			"title": "Detalles"
+		}
+	];
+
+	$(document).ready(function() {
+
+		function initializeTabletopObject() {
+			Tabletop.init({
+				key: key,
+				callback: function(data, tabletop) {
+					writeTable(data);
+				},
+				simpleSheet: true,
+				debug: false
+			});
+		}
+
+		initializeTabletopObject();
+
+
+		function format(d) {
+		    return '<div class="evidence-container">'+
+		        '<div class="evidence-row">'+
+		            '<span>Descripción del Reporte:</span>'+
+		            '<span>'+d.descripcion+'</span>'+
+		        '</div>'+
+		        '<div class="evidence-row">'+
+		            '<span>Teléfono:</span>'+
+		            '<span>'+d.telefono+'</span>'+
+		        '</div>'+
+		        '<div class="evidence-row">'+
+		            '<span>País:</span>'+
+		            '<span>'+d.pais+'</span>'+
+		        '</div>'+
+		        '<div class="evidence-row">'+
+		            '<span>Notas:</span>'+
+		            '<span>'+d.notas+'</span>'+
+		        '</div>'+
+		        '<div class="evidence-row">'+
+		            '<span>Adjunto:</span>'+
+		            '<span><a title="Click para ver" href="'+d.adjunto+'" target="_blank"><img class="evidence-img" src="'+d.adjunto+'"></a></span>'+
+		        '</div>'+
+		        '<div class="evidence-row">'+
+		            '<span>Departamento:</span>'+
+		            '<span>'+d.departamento+'</span>'+
+		        '</div>'+
+		        '<div class="evidence-row">'+
+		            '<span>Municipio:</span>'+
+		            '<span>'+d.municipio+'</span>'+
+		        '</div>'+
+		        '<div class="evidence-row">'+
+		            '<span>Fecha de Suceso:</span>'+
+		            '<span>'+d.fecha_suceso+'</span>'+
+		        '</div>'+
+		        '<div class="evidence-row">'+
+		            '<span>Correo Electronico:</span>'+
+		            '<span><a href="mailto:'+d.correo+'">'+d.correo+'</a></span>'+
+		        '</div>'+
+		    '</div>';
+		}
+
+		function writeTable(data) {
+			$('#reclamos_container').html(
+				'<table class="table table-bordered table-checkable" id="reclamos_datatable"></table>'
+			);
+
+			var table = $("#reclamos_datatable").DataTable({
+				autoWidth: false,
+				data: data,
+				columns: columns,
+				order: [
+					[0, "asc"]
+				],
+		        dom: 'Bfrtip',
+		        buttons: [
+					'csv', 'excel', 'pdf', 
+					{
+				        extend: 'print',
+				        text: 'Imprimir'
+					}
+		        ],
+		        language: {
+		            lengthMenu: "Mostrar _MENU_ reclamos por pagina",
+		            zeroRecords: "No hay reclamos encontrados",
+		            info: "Mostrando _START_ a _END_ de _TOTAL_ reclamos",
+		            infoEmpty: "No hay reclamos",
+		            search: "Buscar reclamos:",
+		            infoFiltered: "(Filtrados _MAX_ reclamos)"
+		        },
+		        columnDefs: [
+		            {
+		                "targets": [3,4,5,6,7,8,9,11,12],
+		                "visible": false,
+		                "searchable": false
+		            },
+					{
+						"targets": -1,
+						"data": null,
+						"defaultContent": "<button type='button' class='btn btn-success evidence-control'></button>"
+					}
+		        ]
+			});
+
+			$('#reclamos_datatable tbody').on('click', 'td button', function () {
+				var tr = $(this).closest('tr');
+				var row = table.row(tr);
+
+				if (row.child.isShown()) {
+					row.child.hide();
+					tr.removeClass('show-evidence');
+				}
+				else {
+					row.child(format(row.data())).show();
+					tr.addClass('show-evidence');
+				}
+			});
+
+		}
+
+	});
+
+</script>
+</html>
