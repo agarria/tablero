@@ -10,6 +10,45 @@
     background: #239a7f;
 }
 
+.bg-light-warning {
+    background-color: #fdbf5e !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.btn.btn-link-white {
+    border: 0;
+    padding: 0 !important;
+    border-radius: 0 !important;
+    color: #fff;
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.btn.btn-light-success {
+    color: #fff !important;  
+    background-color: #239a7f !important;
+}
+
+.navi .navi-item .navi-link:hover {
+    color: #239a7f !important;
+}
+
+.navi .navi-item .navi-link:hover .navi-text {
+    color: #239a7f !important;
+}
+
+.navi .navi-item .navi-link:hover .navi-icon i {
+    color: #239a7f !important;
+}
+
+.scrolltop {
+	opacity: 1 !important;
+    background: #239a7f !important;
+}
+
 .rc-logo svg {
 	height: 35px;
     width: auto;
@@ -26,11 +65,16 @@
 }
 
 .nav.nav-pills.nav-danger .show > .nav-link .nav-icon .svg-icon svg g [fill], .nav.nav-pills.nav-danger .nav-link:hover:not(.active) .nav-icon .svg-icon svg g [fill] {
-    fill: #239a7f !important;
+    fill: #fff !important;
+}
+
+.nav.nav-pills.nav-danger .show > .nav-link, .nav.nav-pills.nav-danger .nav-link:hover:not(.active) {
+    color: #fff;
+    background: #239a7f !important;
 }
 
 .nav.nav-pills.nav-danger .show > .nav-link .nav-text, .nav.nav-pills.nav-danger .nav-link:hover:not(.active) .nav-text {
-    color: #239a7f !important;
+    color: #fff !important;
 }
 
 .nav .show > .nav-link, .nav .nav-link:hover:not(.disabled), .nav .nav-link.active {
